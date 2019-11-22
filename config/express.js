@@ -1,3 +1,4 @@
+const { TransactionProcessor } = require('sawtooth-sdk/processor');
 var express = require('express');
 var consign = require('consign');
 var app = express();
